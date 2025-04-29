@@ -6,7 +6,9 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "biome:check": "biome check",
+    "biome:check:fix": "biome check --apply"
   },
   "dependencies": {
     "@react-router/node": "^7.5.2",
