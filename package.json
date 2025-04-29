@@ -11,6 +11,7 @@
     "biome:check:fix": "biome check --apply"
   },
   "dependencies": {
+    "@react-router/fs-routes": "^7.5.3",
     "@react-router/node": "^7.5.2",
     "@react-router/serve": "^7.5.2",
     "isbot": "^5.1.17",
